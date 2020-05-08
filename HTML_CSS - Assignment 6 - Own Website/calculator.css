@@ -1,0 +1,37 @@
+/* ----------banner for logo-------------- */
+
+#banner {
+    height:275px;
+    text-align: center;
+    background: url('calculator.jpg') no-repeat top left;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+#banner img {
+    padding:10px 0px;
+  }
+
+
+#bannertitle {
+    padding-top:0px;
+    font-size:6em;
+    font-weight:130;
+    font-family: cursive, verdana,'lucida grande', arial, sans-serif;
+  }
+
+
+/*calculator table:*/
+
+table {
+  table-layout: fixed ;
+  width: 50% ;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  width: 33.33333333% ;
+  font-size: 24px;
+  }

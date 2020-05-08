@@ -1,0 +1,249 @@
+body {
+    background-color : #000000;
+    background-image : url('body.jpg');
+    background-position : top left;
+    background-image: no-repeat;
+    color : #564b47;
+    font-family : Verdana, Arial, SunSans-Regular, Sans-Serif;
+    font-size : 11px;
+    margin-bottom : 0px;
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-top : 0px;
+    padding-bottom : 0px;
+    padding-left : 0px;
+    padding-right : 0px;
+    padding-top : 0px;
+  }
+
+
+a {
+    color : #564b47;
+  }
+
+
+a:visited {
+    color: #564b47;
+  }
+
+
+a:hover {
+    color: #564b47;
+  }
+
+
+a:active {
+    color: #564b47;
+  }
+
+
+h1 {
+    font-size: 11px;
+    text-transform:uppercase;
+    margin:0px;
+  }
+
+
+h2 {
+    color: #000000;
+    font-size:25px;
+    font-weight: bold;
+    font-family: cursive,verdana, Arial, SunSans-Regular, Sans-Serif ;
+    padding: 5px 10px;
+    margin:0px;
+  }
+
+h3 {
+    color: #000000;
+    font-size:18px;
+    font-weight: bold;
+    font-family: cursive,verdana, Arial, SunSans-Regular, Sans-Serif ;
+    padding: 5px 10px;
+    margin:0px;
+  }
+  
+ h4 {
+    color: #151B54;
+    font-size:15px;
+    font-weight: bold;
+    padding: 5px 10px;
+   
+  }
+
+h5 {
+    color: #151B54;
+    font-size:15px;
+    font-weight: bold;
+    padding: 5px 0px;
+   
+  }
+
+img.download {
+    vertical-align:middle;
+  }
+
+/* ----------container to center the layout-------------- */
+
+#container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    background: #E8E8E8 no-repeat bottom left;
+    border:1px solid #8D8D8D;
+  }
+
+
+
+
+/* -----------------content--------------------- */
+
+#content {
+    background:#ffffff no-repeat top right;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 0px;
+  }
+#content ul li a:link, #content ul li a:active, #content ul li a:visited
+{
+	color:           #000000;	
+	padding:         10px 7px 10px 7px;
+	font-size:       1em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+}
+
+#content a:link, #content a:active, #content a:visited
+{
+	color:           #000000;	
+	padding:         0px 0px 0px 0px;
+	font-size:       1.3em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+}
+div#content {
+    min-height:600px;
+  }
+
+#content p, #content ul li
+{
+	margin:          0;
+	color:           #3E3535;
+	font-family:     Tahoma;
+	font-size:       1.2em;
+        padding-top: 	 5px;
+        padding-right:   30px;
+	line-height:     150%;
+}
+
+#content ol li
+{
+	margin:          0;
+        margin-left:     45px;
+	color:           #3E3535;
+	font-family:     Tahoma;
+	font-size:       1.2em;
+        padding-top:     5px;
+        padding-right:   30px;
+	padding-left:    0px;
+	line-height:     150%;
+}
+
+p, pre {
+    padding: 5px 10px;
+    padding-right: 30px;
+    margin:0px;
+  }
+
+/* --------------left navi------------- */
+
+#left {
+    float: left;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    background:#E8E8E8;
+    height:90%;
+  }
+
+
+
+
+/********horizontal menu***************************/
+#menu
+{
+	margin:          0 20px;
+	height:          29px;
+	padding:         5px 0;
+}
+
+#menu ul
+{
+	margin:          0;
+	padding:         7px;
+	height:          29px;
+}
+
+#menu ul li
+{
+	list-style:      none;
+	display:         inline;
+}
+
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
+{
+	color:           #504A4B;	
+	padding:         1px 15px 1px 15px;
+	font-size:       1.1em;
+
+	font-family:     'lucida grande', arial, sans-serif;
+	font-weight:     bold;
+	text-decoration: none;
+	
+	
+}
+
+#menu ul li a:hover
+{
+	background-color:   #736F6E/*#6A7919*/;
+	color:           #000000;
+}
+
+
+/**************Vertical Menu***************************/
+
+#vertmenu ul {
+list-style: none;
+margin: 0;
+padding: 10px;
+}
+
+#vertmenu a, #vertmenu h2 {
+font: bold 14px arial, helvetica, sans-serif;
+display: block;
+border-width: 1px;
+margin: 4px;
+padding: 5px 3px;
+
+}
+
+#vertmenu h2 {
+color: #fff;
+background: #000;
+text-transform: uppercase;
+}
+
+#vertmenu a {
+color: #666362;
+background: #E8E8E8;
+text-decoration: none;
+}
+
+#vertmenu a:hover {
+color: #000000;
+background-color:   #6D7B8D
+}

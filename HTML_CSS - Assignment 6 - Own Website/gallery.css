@@ -1,0 +1,68 @@
+/* ----------banner for logo-------------- */
+
+#banner {
+    height:275px;
+    text-align: center;
+    background: url('gallery.png') no-repeat top left;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+#banner img {
+    padding:10px 0px;
+  }
+
+
+#bannertitle {
+    padding-top:0px;
+    font-size:6em;
+    font-weight:130;
+    font-family:     cursive, verdana,'lucida grande', arial, sans-serif;
+  }
+
+
+/*image sidebar creation - took help from google */
+
+.sidebar-image-gallery { 
+	margin-left:15px;
+	margin-top:0px;
+}
+.sidebar-image-gallery img {  /*make images round and slightly transparent*/
+	border-radius: 50%; 
+	opacity: .7;
+}
+.sidebar-image-gallery img:hover {  /*make images opaque on hover*/
+	opacity: 1; 
+	transform:scale(1.05);
+	transition-duration:0.5s;
+}
+
+.sidebar-image-gallery img:focus {  /*make images move on click, enlarged translate()*/
+	transition-duration:1.2s;
+	border-radius:0%;
+	opacity: 1;
+	width: 458px;
+  	height: 521px;
+  	position: absolute;
+  	top: 413.5px;
+  	left: 745px;
+
+	/*shadow around images when enlarged*/
+	-webkit-box-shadow: 12px 29px 50px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 12px 29px 50px 0px rgba(0,0,0,0.75);
+	box-shadow: 12px 29px 50px 0px rgba(0,0,0,0.75);
+}
+
+#content {
+    background:#ffffff url('indiadefaultbackground.jpg') no-repeat top right;
+    padding: 0px;
+    margin-left: 200px;
+    margin-right: 0px;
+  }
+
+
+
+
+

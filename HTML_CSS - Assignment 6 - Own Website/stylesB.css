@@ -1,0 +1,24 @@
+/* ----------banner for logo-------------- */
+
+#banner {
+    height:275px;
+    text-align: center;
+    background: url('random.jpg') no-repeat top left;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+#banner img {
+    padding:10px 0px;
+  }
+
+
+#bannertitle {
+    padding-top:0px;
+    font-size:6em;
+    font-weight:130;
+    font-family:cursive, verdana,'lucida grande', arial, sans-serif;
+  }
+
